@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Input</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script defer src="script.js"></script>
+    </head>
+<body>
+    <nav class="navbar">
+        <a class="nav-link" href="website.html">Home</a>
+        <a class="nav-link" href="input.html">Input</a>
+    </nav>
+    
+    <section>
+        <!--INPUT FORM-->
+        <div class="error" id="error"></div>
+            <form action="" method="POST" id="contact-form">
+                <h3>Here you can give some random input or send a nice message:)</h3>
+                <style>
+                    h3{
+                        text-align: center;
+                    }
+                </style>
+                <div class="form-content">
+
+                    <br>
+
+                    <div class="form-item">
+                        <label for="Name">Name:</label>
+                        <input type="text" name="name"><br>
+                    </div>
+                    <div class="form-item">
+                        <label for="Email">Email:</label>
+                        <input type="email" name="email"><br> 
+                    </div>
+
+                    <div class="form-item">
+                        <label for="Message">Message:</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="form-item">
+                        <div class="radio-inputs">
+                            <p><span style="color: white;">How do you rate Doja Cat?</span></p>
+                            <style>
+                                p{
+                                    font-size: 20px;
+                                }
+                            </style>
+                            <input type="radio" id="She's cool" name="rate" value="She's cool">
+                            <label for="She's cool">She's Cool</label>
+                            <input type="radio" name="rate" id="Definitly a baddie" value="Baddie">
+                            <label for="Definitly a baddie">Definitly a baddie</label>
+                            <input type="radio" id="Meh, pretty mid" name="rate" value="Meh, pretty mid">
+                            <label for="Meh, pretty mid">Meh, pretty mid</label>
+                            <br><br>
+
+
+                            <div class="form-item">
+                                <button type="submit">Submit</button>
+                            </div>
+
+                            <br>
+            
+                        </div>
+                    </div>
+        
+            </div>
+            <br>
+
+        </form>
+
+
+    </section>
+
+    <footer class="footer">
+        <h3>Contact Infromation:</h3>
+        <a href="contact@gmail.com">contact@gmail.com</a><br>
+        <a href="tel:123-456-7890">123-456-7890</a>
+        <br>
+        <br>
+        copyright 2022&copy;
+    </footer>
+</body>
+
+    
+</html>
