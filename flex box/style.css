@@ -1,0 +1,21 @@
+body{
+    font-size: 25px;
+    color: blue;
+}
+
+.container{
+    display: flex;
+    margin: 10px;
+    border: 15px solid salmon;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.item{
+    color: black;
+    border: dotted blueviolet;
+    margin: 10px;
+}
